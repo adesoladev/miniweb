@@ -37,7 +37,7 @@ nav {
 }
 
 h1 {
-  color: yellow;
+  color: #ffd63e;
 }
 
 nav ul {
@@ -51,11 +51,11 @@ nav ul li {
 
 nav ul li a:hover {
   text-decoration: underline;
-  color: yellow;
+  color: #ffd63e;
 }
 
 #home a {
-  color: yellow;
+  color: #ffd63e;
   text-decoration: underline;
 }
 
@@ -102,7 +102,7 @@ nav ul li a:hover {
   margin: 10px 0 0 0;
   padding: 12px 22px;
   border: none;
-  background-color: yellow;
+  background-color: #ffd63e;
   color: #042d62;
   font-size: 15px;
   font-weight: 550;
@@ -145,7 +145,7 @@ nav ul li a:hover {
 }
 
 .cards i {
-  background-color: yellow;
+  background-color: #ffd63e;
   color: white;
   padding: 15px 15px;
   border-radius: 100%;
@@ -309,7 +309,7 @@ footer a {
 @media only screen and (max-width: 500px) {
   .menu-btn {
     display: block;
-    color: yellow;
+    color: #ffd63e;
   }
 
   .menu-btn:hover {
@@ -380,8 +380,26 @@ footer a {
     margin-top: 16px;
   }
 
+  .profile img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .team-heading p {
+    width: 60%;
+  }
+
   .team-profile {
     grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer p {
+    width: 70%;
   }
 }
 
@@ -440,7 +458,6 @@ footer a {
   .cards {
     height: 250px;
     width: 300px;
-
     margin: 0 30px;
     background-color: #ededed;
     padding: 10px 25px;
