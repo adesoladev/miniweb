@@ -307,31 +307,6 @@ footer a {
 }
 
 @media only screen and (max-width: 500px) {
-  .services-heading p {
-    width: 60%;
-    margin-top: 16px;
-  }
-
-  .services-cards {
-    grid-template-columns: 1fr;
-    grid-gap: 40px;
-  }
-
-  .portfolio-cards-wrapper {
-    grid-template-columns: 1fr;
-  }
-
-  .portfolio-heading p {
-    width: 60%;
-    margin-top: 16px;
-  }
-
-  .team-profile {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media only screen and (max-width: 450px) {
   .menu-btn {
     display: block;
     color: yellow;
@@ -339,6 +314,13 @@ footer a {
 
   .menu-btn:hover {
     opacity: 0.5;
+  }
+  h1 {
+    margin-left: 16px;
+  }
+
+  nav {
+    justify-content: left;
   }
 
   nav ul {
@@ -379,6 +361,31 @@ footer a {
     color: black;
   }
 
+  .services-heading p {
+    width: 60%;
+    margin-top: 16px;
+  }
+
+  .services-cards {
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+  }
+
+  .portfolio-cards-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-heading p {
+    width: 60%;
+    margin-top: 16px;
+  }
+
+  .team-profile {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 450px) {
   .team-profile {
     grid-template-columns: 1fr;
   }
